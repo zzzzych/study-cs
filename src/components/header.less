@@ -1,7 +1,26 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #fff;
   padding: 15px;
   .logo {
-    border: 1px solid #ff00ff;
+  }
+  .btn-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    .line {
+      width: 16px;
+      height: 2px;
+      background: #fff;
+      &:nth-child(2) {
+        width: 12px;
+      }
+      &:last-child {
+        width: 8px;
+      }
+    }
   }
 }

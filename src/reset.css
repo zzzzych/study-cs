@@ -165,6 +165,14 @@ textarea {
 textarea {
   line-height: 1.25;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 body {
   background: #444;
+}
+#root {
+  height: 100%;
 }
